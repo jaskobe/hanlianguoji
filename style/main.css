@@ -1888,10 +1888,10 @@
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
 		background-color: transparent;
-		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border: solid 1px ;
+		border-color: rgba(255, 255, 255, 0.15) ;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #ffffff ;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 1em;
@@ -2501,27 +2501,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(255, 255, 255, 0.35) ;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(255, 255, 255, 0.35) ;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(255, 255, 255, 0.35) ;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(255, 255, 255, 0.35) ;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: rgba(255, 255, 255, 0.35) !important;
+		color: rgba(255, 255, 255, 0.35) ;
 		opacity: 1.0;
 	}
 
@@ -3551,7 +3551,8 @@
 		width: 100%;
 		background-color: #fff;
 	}
-	#sidebar::-webkit-scrollbar {
+	#sidebar::-webkit-scrollbar
+	{
 		width:0;
 		height:0;
 	}
@@ -4008,4 +4009,40 @@
 	.slider.bananer-intro .item>.inner{
 		padding: 4em 4em 2em 4em;
 	}
+}
+
+/*contact-box*/
+.contact-box.wrapper.style1{
+	background-color: #FEFFFF;
+}
+.contact-box input,
+.contact-box textarea
+{
+	background-color:#F6F7F8 ;
+}
+.contact-box h2,
+.contact-box h3,
+.contact-box span,
+.contact-box p,
+.contact-box a,
+.contact-box input{
+	color: #2f2f2f;
+}
+.contact-box .button{
+	color: rgba(0, 0, 0, 0.6);
+	background-color: #f6f7f8;
+	border-radius: 5px;
+}
+.contact-box input::-webkit-input-placeholder,
+.contact-box textarea::-webkit-input-placeholder
+{
+	color: rgba(0, 0, 0, 0.6) ;
+	opacity: 1.0;
+}
+.contact-box input:-moz-placeholder,
+.contact-box input::-moz-placeholder,
+.contact-box textarea::-moz-placeholder
+{
+	color: rgba(0, 0, 0, 0.6) ;
+	opacity: 1.0;
 }
