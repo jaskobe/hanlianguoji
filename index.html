@@ -37,15 +37,30 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>恩泽世界,造福人类</h1>
-							<p>恩泽世界,造福人类,恩泽世界,造福人类,恩泽世界,造福人类,恩泽世界,造福人类,恩泽世界,造福人类,恩泽世界,造福人类,恩泽世界,造福人类</p>
-							<!--<ul class="actions">-->
+
+				<div class="slider bananer-intro wrapper style1 fullscreen fade-up" id="banner">
+					<div class="slider-inner">
+						<div class="item item1 wrapper fullscreen">
+							<div class="inner">
+								<h1>恩泽世界,造福人类</h1>
+								<p>恩泽世界,造福人类,恩泽世界,造福人类,恩泽世界,造福人类,恩泽世界,造福人类,恩泽世界,造福人类,恩泽世界,造福人类,恩泽世界,造福人类</p>
+								<!--<ul class="actions">-->
 								<!--<li><a href="#one" class="button scrolly">Learn more</a></li>-->
-							<!--</ul>-->
+								<!--</ul>-->
+							</div>
 						</div>
-					</section>
+						<div class="item item2 wrapper fullscreen">
+							<div class="inner">
+								<h1>fsfsfsfs</h1>
+								<p>恩泽fsfsfs类,恩泽世界,造福人类,恩泽世界,造福人类</p>
+								<!--<ul class="actions">-->
+								<!--<li><a href="#one" class="button scrolly">Learn more</a></li>-->
+								<!--</ul>-->
+							</div>
+						</div>
+					</div>
+
+				</div>
 
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
@@ -200,8 +215,21 @@
 			<script src="js/jquery.scrolly.min.js"></script>
 			<script src="js/skel.min.js"></script>
 			<script src="js/util.js"></script>
+			<script src="js/banner-fade.js"></script>
 			<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
 			<script src="js/main.js"></script>
-
+			<script>
+				jQuery(document).ready(function($) {
+					$('#banner').Slider({
+						isAuto: false,
+						transTime: 6000,
+						animateSpeed: 1000,
+						sliderMode: 'slide', //'slide | fade',
+						pointerControl: true,
+						pointerEvent: 'hover',//'hover' | 'click',
+						arrowControl: false
+					});
+				});
+			</script>
 	</body>
 </html>
