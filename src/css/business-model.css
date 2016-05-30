@@ -1,0 +1,77 @@
+/*part1*/
+.part1{
+    height: 620px;
+    background-image: url("/img/business-model/bm-banner.jpg");
+}
+.part1 .banner-txt{
+    color: #fff;
+    text-align: left;
+    left: 30px;
+}
+.part1 .banner-txt h2{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.part1 .banner-txt p{
+    text-align: left;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.part1 .banner-txt h3{
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+/*part2*/
+.part2{
+    min-height: 500px;
+    background: #fff;
+    padding: 30px 30px 60px;
+}
+.part2>p{
+    width: 840px;
+    max-width: 96%;
+    margin: 0 auto 40px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    text-indent: 2em;
+}
+.part2 .bm-card-box .bm-card{
+    min-height: 300px;
+    margin: 10px;
+}
+.bm-card-box .bm-card.bm-card-1{
+    background-image: url("/img/business-model/bm-1.jpg");
+}
+.bm-card-box .bm-card.bm-card-2{
+    background-image: url("/img/business-model/bm-2.jpg");
+}
+.bm-card-box .bm-card.bm-card-3{
+    background-image: url("/img/business-model/bm-3.jpg");
+}
+.bm-card-box .bm-card-txt{
+    display: none;
+    background: #68B233;
+    width: 100%;
+    min-height: 300px;
+    padding: 25px 12px;
+    color: #fff;
+    text-align: center;
+}
+.bm-card-box:hover .bm-card-txt{
+    display: block;
+}
+.bm-card-box .bm-card-txt h2{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.bm-card-box .bm-card-txt h3{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.bm-card-box .bm-card-txt p{
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: left;
+}

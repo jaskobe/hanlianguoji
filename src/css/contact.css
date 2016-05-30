@@ -1,0 +1,139 @@
+/*part1*/
+.part1{
+    min-height: 650px;
+    background-image: url("/img/contact/contact-banner.jpg");
+    padding: 160px 0 50px;
+}
+.part1 .banner-txt{
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+}
+.part1 .banner-txt h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.part1 .banner-txt h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.part1 .banner-txt p{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.part1 .input-group{
+    width: 340px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.part1 .input-group input,
+.part1 .input-group textarea{
+    outline: none;
+    width: 340px;
+    max-width: 90%;
+    box-shadow: none;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.part1 .input-group input{
+    height: 55px ;
+    border: none;
+    border-bottom: 1px solid #efefef;
+}
+.part1 .input-group textarea{
+    height: 110px ;
+    border: none;
+    padding-top: 10px;
+}
+.part1 .input-group button{
+    width: 340px;
+    max-width: 90%;
+    height: 60px;
+    margin-top: 30px;
+    background-color: #00A0F0;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+}
+/*part2*/
+.part2{
+    height: 200px;
+    background-image: url("/img/contact/contact-banner-2.jpg");
+}
+@media all and (max-width: 464px){
+    .part2{
+        background-position-x: 62%;
+    }
+}
+/*part3*/
+.part3 .job-box{
+    min-height: 730px;
+    padding-left: 130px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.part3 .job-box .lazy{
+    position: absolute;
+    left:20px ;
+    top: 10px;
+}
+.part3 .job-box .job-txt{
+    width: 520px;
+    max-width: 90%;
+}
+.part3 .job-blue{
+    background-image: url("/img/dynamic/dynamic-bg-b.jpg");
+    color: #fff;
+}
+.part3 .job-blue h2{
+    border-bottom: 1px dashed #fff;
+}
+.part3 .job-white{
+    background-image: url("/img/dynamic/dynamic-bg-w.jpg");
+    color: #004ea2;
+}
+.part3 .job-white h2{
+    border-bottom: 1px dashed #004ea2;
+}
+.part3 .job-box h2{
+    height: 76px;
+    line-height: 76px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+.part3 .job-box h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+.part3 .job-box p{
+    font-size: 14px;
+    text-align: left;
+    line-height: 24px;
+}
+@media all and (max-width: 500px){
+    .part3 .job-box{
+        padding: 20px;
+    }
+    .part3 .job-box .lazy{
+        position: relative;
+        margin: 0 auto;
+
+    }
+    .part3 .job-box .job-txt{
+        max-width: 100%;
+    }
+    .part3 .job-box h2{
+        text-align: center;
+    }
+}

@@ -24,36 +24,57 @@
     font-size: 32px;
     color: #2b2b2b;
 }
+/*part2*/
+.part2{
+    min-height: 264px;
+    background-color:#69B232 ;
+    color: #fff;
+    padding: 30px 20px;
+}
+.part2 h2{
+    text-align: center;
+    font-size: 28px;
+}
+.part2 p{
+    width: 1000px;
+    max-width: 90%;
+    margin: 30px auto 0;
+    font-size: 14px;
+    text-align: left;
+}
 /*com-part*/
 .com-part{
     width: 100%;
 }
-.com-part div{
-    min-height:inherit;
+.com-part .row{
+    min-height: 390px;
+}
+.com-part .row>div{
+    min-height:inherit ;
 }
 .com-box{
-    min-height: 390px;
+    min-height: inherit;
     color: #fff;
 }
 .com-box:first-child,
 .com-box:nth-child(3),
 .com-box:nth-child(5){
-    background-color: #4549AD;
+    background-color:#018F3C;
 }
 .com-box:nth-child(2),
 .com-box:nth-child(4),
 .com-box:nth-child(6){
-    background-color:#4045A1;
+    background-color:#69B232;
 }
 .com-box .v-center{
     padding:0 30px;
     box-sizing: border-box;
 }
 .com-box h2{
-    font-size: 28px;
+    font-size: 26px;
 }
 .com-box p{
-    font-size: 16px;
+    font-size: 14px;
     text-align: left;
     margin: 20px 0;
 }
@@ -94,20 +115,63 @@
 .com-img-6{
     background-image: url("/img/index/index-7.jpg");
 }
+.com-min-box{
+    padding: 0;
+}
+.com-min-cover{
+    width: 100%;
+    height: 390px;
+    background-color: #69B232;
+    color: #fff;
+    font-size: 20px;
+    line-height: 390px;
+    text-align: center;
+    display: none;
+}
+.com-min-box:hover .com-min-cover{
+    display: block;
+}
+.com-min-box.com-min-box-1{
+     background-image: url("/img/index/index-5.jpg");
+}
+.com-min-box.com-min-box-2{
+    background-image: url("/img/index/index-6.jpg");
+}
+.com-min-box.com-min-box-3{
+    background-image: url("/img/index/index-7.jpg");
+}
+@media all and (max-width: 991px){
+    .com-part .row{
+        min-height: 280px;
+    }
+    .com-box h2{
+        font-size: 22px;
+    }
+    .com-box p{
+        font-size: 12px;
+    }
+    .com-box a{
+        width: 140px;
+        height: 40px;
+        line-height: 39px;
+        font-size: 16px;
+    }
+}
 
 /*pro-box*/
 .pro-box{
     background-color: #fff;
-    min-height: 1100px;
-    padding: 50px 50px 20px;
+    min-height: 900px;
+    padding: 50px 0 20px;
     color: #2b2b2b;
 }
 /*.pro-box div{*/
     /*padding: 0;*/
 /*}*/
 .pro-box p{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 20px auto 0;
+    padding: 0 15px;
     font-size: 16px;
 }
 .pro-box .pro-img-box{
@@ -176,4 +240,257 @@
 }
 .pro-box .pro-img-box .img-box:hover .img-txt{
     bottom: 0;
+}
+@media all and (max-width: 991px){
+    .pro-box .pro-img-box .img-box.height-max,
+    .pro-box .pro-img-box .img-box.height-min {
+        height: 250px;
+    }
+    .pro-box .pro-img-box .img-box.height-max .img-txt,
+    .pro-box .pro-img-box .img-box.height-min .img-txt{
+        font-size: 20px;
+        height: 60px;
+        line-height: 60px;
+        bottom: -60px;
+    }
+    .pro-box .pro-img-box .img-box:hover .img-txt{
+        bottom: 0;
+    }
+}
+/*contact part*/
+.part-contact{
+    margin: 20px auto;
+    max-width: 1200px;
+
+}
+.part-contact .contact-box{
+    margin: 20px auto;
+}
+.contact-box .contact-map-box,
+.contact-box .contact-input-box{
+    min-height: 470px;
+}
+.contact-box .contact-map-box{
+    background: #e8ae46;
+}
+.contact-box .contact-input-box{
+    background: #fff;
+}
+.contact-input-box h3{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.contact-input-box p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
+}
+.contact-input-box .row{
+    margin-top: 50px;
+}
+.contact-input-box input,
+.contact-input-box textarea{
+    background: #F5F5F7;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.contact-input-box input{
+    float: left;
+    height: 45px;
+    width: 48%;
+
+}
+.contact-input-box input:nth-child(2){
+    float: right;
+}
+.contact-input-box textarea{
+    margin-top: 20px;
+    float: left;
+}
+.contact-input-box button{
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 0.35em;
+    border: solid 3px #efefef;
+    color: #787878 !important;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.contact-input-box button:hover{
+    background-color: #efefef;
+}
+.contact-address-box{
+    margin-top: 25px;
+    color: #787878;
+}
+.contact-address-box li{
+    position: relative;
+    padding-left: 30px;
+}
+.contact-address-box li:nth-child(2){
+    margin-top: 40px;
+}
+.contact-address-box li:nth-child(3){
+    margin-top: 30px;
+}
+.contact-address-box span{
+    font-size: 18px;
+    position: absolute;
+    color: #919191;
+    top: 0;
+    left: 0;
+}
+/*button*/
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: border-color 0.2s ease;
+    -webkit-transition: border-color 0.2s ease;
+    -ms-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+    background-color: transparent;
+    border: solid 1px ;
+    border-color: rgba(255, 255, 255, 0.15) ;
+    border-radius: 3em;
+    color: #ffffff ;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    height: calc(3em + 2px);
+    letter-spacing: 0.25em;
+    line-height: 3em;
+    outline: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+input[type="submit"]:after,
+input[type="reset"]:after,
+input[type="button"]:after,
+button:after,
+.button:after {
+    -moz-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    -ms-transform: scale(0.25);
+    transform: scale(0.25);
+    -moz-pointer-events: none;
+    -webkit-pointer-events: none;
+    -ms-pointer-events: none;
+    pointer-events: none;
+    -moz-transition: opacity 0.2s ease, -moz-transform 0.2s ease;
+    -webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
+    -ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    background: #ffffff;
+    border-radius: 3em;
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+input[type="submit"]:hover:after,
+input[type="reset"]:hover:after,
+input[type="button"]:hover:after,
+button:hover:after,
+.button:hover:after {
+    opacity: 0.05;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+input[type="submit"]:hover:active,
+input[type="reset"]:hover:active,
+input[type="button"]:hover:active,
+button:hover:active,
+.button:hover:active {
+    border-color: #ffffff !important;
+}
+
+input[type="submit"]:hover:active:after,
+input[type="reset"]:hover:active:after,
+input[type="button"]:hover:active:after,
+button:hover:active:after,
+.button:hover:active:after {
+    opacity: 0.1;
+}
+
+/*team-part*/
+.team-part .row{
+    /*margin: 30px 0;*/
+}
+.team-part .team-photo{
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.team-part .team-photo .team-photo-box{
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.team-part .team-photo img{
+    width: 100%;
+}
+.team-part .team-photo .team-info{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    top:100%;
+    background-color: #1c60a3;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+    text-align: left;
+}
+.team-part .team-photo:hover .team-info{
+    top:0
+}
+.team-part .team-info h2{
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.team-part .team-info h3{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.team-part .team-info p{
+    text-align: left;
+    font-size: 14px;
+}
+@media all and (max-width: 767px){
+    .team-part .team-photo img,
+    .team-part .team-photo .team-info{
+        max-width: 300px;
+    }
+    .team-part .team-photo .team-info{
+        left: 50%;
+        margin-left: -150px;
+    }
 }
