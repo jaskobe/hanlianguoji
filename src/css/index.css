@@ -1,6 +1,6 @@
 /*banner*/
 .part1 .item1{
-    background-image: url("/img/index/index-banner-1.jpg");
+    background-image: url("../../img/index/index-banner-1.jpg");
 }
 .banner-intro{
     color: #fff;
@@ -12,7 +12,7 @@
     text-align: left;
 }
 .banner-intro p:first-child{
-    font-size: 36px;
+    font-size: 60px;
 }
 .banner-intro p:nth-child(2){
     font-size: 18px;
@@ -98,22 +98,22 @@
     background-position: center;
 }
 .com-img-1{
-    background-image: url("/img/index/index-2.jpg");
+    background-image: url("../../img/index/index-2.jpg");
 }
 .com-img-2{
-    background-image: url("/img/index/index-3.jpg");
+    background-image: url("../../img/index/index-3.jpg");
 }
 .com-img-3{
-    background-image: url("/img/index/index-4.jpg");
+    background-image: url("../../img/index/index-4.jpg");
 }
 .com-img-4{
-    background-image: url("/img/index/index-5.jpg");
+    background-image: url("../../img/index/index-5.jpg");
 }
 .com-img-5{
-    background-image: url("/img/index/index-6.jpg");
+    background-image: url("../../img/index/index-6.jpg");
 }
 .com-img-6{
-    background-image: url("/img/index/index-7.jpg");
+    background-image: url("../../img/index/index-7.jpg");
 }
 .com-min-box{
     padding: 0;
@@ -132,13 +132,13 @@
     display: block;
 }
 .com-min-box.com-min-box-1{
-     background-image: url("/img/index/index-5.jpg");
+     background-image: url("../../img/index/index-5.jpg");
 }
 .com-min-box.com-min-box-2{
-    background-image: url("/img/index/index-6.jpg");
+    background-image: url("../../img/index/index-6.jpg");
 }
 .com-min-box.com-min-box-3{
-    background-image: url("/img/index/index-7.jpg");
+    background-image: url("../../img/index/index-7.jpg");
 }
 @media all and (max-width: 991px){
     .com-part .row{
