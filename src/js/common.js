@@ -2,7 +2,7 @@
  * Created by Jasko on 5/9/16.
  */
 
-$(document).ready(function(){
+$(function(){
     var setting = {
         //初始化
         init : function(){
