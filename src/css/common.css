@@ -1,5 +1,7 @@
 body{
     padding-left: 310px;
+    background-color: #0A509F;
+
 }
 html{
     -webkit-transition: all 0.5s;
@@ -7,7 +9,7 @@ html{
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-    background-color: #0A509F;
+
 
 }
 
