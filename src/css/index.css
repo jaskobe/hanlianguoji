@@ -1,5 +1,6 @@
 /*banner*/
 .part1 .item1{
+    min-height: 600px;
     background-image: url("../../img/index/index-banner-1.jpg");
 }
 .banner-intro{

@@ -68,6 +68,11 @@ $(function(){
     //改变窗口执行
     $(window).resize(function(){
         setting.init();
+        if($(window).width()>768){
+            $(".nav-side>ul").show();
+        }else {
+            $(".nav-side>ul").hide();
+        }
     });
     //懒加载
     $("img.lazy").lazyload({
