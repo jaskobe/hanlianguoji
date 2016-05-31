@@ -10,7 +10,7 @@
 .part1{
     width: 100%;
     background-color:#BBC4CA ;
-    background-image: url("/img/base-intro/base-banner.png");
+    background-image: url("../../img/base-intro/base-banner.png");
     z-index: 9;
 }
 .part1 .title-box{
@@ -60,13 +60,13 @@
     position: relative;
 }
 .base-banner.base-banner-1{
-    background-image: url("/img/base-intro/base-banner-1.png");
+    background-image: url("../../img/base-intro/base-banner-1.png");
 }
 .base-banner.base-banner-2{
-    background-image: url("/img/base-intro/base-banner-2.png");
+    background-image: url("../../img/base-intro/base-banner-2.png");
 }
 .base-banner.base-banner-3{
-    background-image: url("/img/base-intro/base-banner-3.png");
+    background-image: url("../../img/base-intro/base-banner-3.png");
 }
 .base-banner .base-banner-inner{
     text-align: center;
@@ -121,40 +121,40 @@
 }
 /*part3*/
 .base-part-card.part-1-a{
-    background-image: url("/img/base-intro/base-part-1a.png");
+    background-image: url("../../img/base-intro/base-part-1a.png");
 }
 .base-part-card.part-1-b{
-    background-image: url("/img/base-intro/base-part-1b.png");
+    background-image: url("../../img/base-intro/base-part-1b.png");
 }
 .base-part-card.part-1-c{
-    background-image: url("/img/base-intro/base-part-1c.png");
+    background-image: url("../../img/base-intro/base-part-1c.png");
 }
 .base-part-card.part-1-d{
-    background-image: url("/img/base-intro/base-part-1a.png");
+    background-image: url("../../img/base-intro/base-part-1a.png");
 }
 .base-part-card.part-1-e{
-    background-image: url("/img/base-intro/base-part-1b.png");
+    background-image: url("../../img/base-intro/base-part-1b.png");
 }
 .base-part-card.part-1-f{
-    background-image: url("/img/base-intro/base-part-1c.png");
+    background-image: url("../../img/base-intro/base-part-1c.png");
 }
 
 /*part4*/
 .base-part-card.part-2-a{
-    background-image: url("/img/base-intro/base-part-2a.png");
+    background-image: url("../../img/base-intro/base-part-2a.png");
 }
 .base-part-card.part-2-b{
-    background-image: url("/img/base-intro/base-part-2b.png");
+    background-image: url("../../img/base-intro/base-part-2b.png");
 }
 .base-part-card.part-2-c{
-    background-image: url("/img/base-intro/base-part-2c.png");
+    background-image: url("../../img/base-intro/base-part-2c.png");
 }
 .base-part-card.part-2-d{
-    background-image: url("/img/base-intro/base-part-2d.png");
+    background-image: url("../../img/base-intro/base-part-2d.png");
 }
 .base-part-card.part-2-e{
-    background-image: url("/img/base-intro/base-part-2e.png");
+    background-image: url("../../img/base-intro/base-part-2e.png");
 }
 .base-part-card.part-2-f {
-    background-image: url("/img/base-intro/base-part-2f.png");
+    background-image: url("../../img/base-intro/base-part-2f.png");
 }

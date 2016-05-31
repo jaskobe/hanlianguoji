@@ -1,7 +1,7 @@
 /*part1*/
 .part1{
     height: 620px;
-    background-image: url("/img/business-model/bm-banner.jpg");
+    background-image: url("../../img/business-model/bm-banner.jpg");
 }
 .part1 .banner-txt{
     color: #fff;
@@ -42,13 +42,13 @@
     margin: 10px;
 }
 .bm-card-box .bm-card.bm-card-1{
-    background-image: url("/img/business-model/bm-1.jpg");
+    background-image: url("../../img/business-model/bm-1.jpg");
 }
 .bm-card-box .bm-card.bm-card-2{
-    background-image: url("/img/business-model/bm-2.jpg");
+    background-image: url("../../img/business-model/bm-2.jpg");
 }
 .bm-card-box .bm-card.bm-card-3{
-    background-image: url("/img/business-model/bm-3.jpg");
+    background-image: url("../../img/business-model/bm-3.jpg");
 }
 .bm-card-box .bm-card-txt{
     display: none;

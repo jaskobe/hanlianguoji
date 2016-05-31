@@ -11,7 +11,7 @@
     width: 100%;
     height: 678px;
     background-color:#BBC4CA ;
-    background-image: url("/img/dynamic/dynamic-banner.jpg");
+    background-image: url("../../img/dynamic/dynamic-banner.jpg");
     z-index: 9;
 }
 .part1 .title-box{
@@ -34,10 +34,10 @@
     padding: 10px 35px;
 }
 .part2 .news-block.news-block-1{
-    background-image: url("/img/dynamic/dynamic-bg-b.jpg");
+    background-image: url("../..//img/dynamic/dynamic-bg-b.jpg");
 }
 .part2 .news-block.news-block-2{
-    background-image: url("/img/dynamic/dynamic-bg-w.jpg");
+    background-image: url("../..//img/dynamic/dynamic-bg-w.jpg");
 }
 .part2 .news-block .news-title{
     width: 100%;

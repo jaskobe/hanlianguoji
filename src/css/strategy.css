@@ -12,7 +12,7 @@
     height: 600px;
     padding-top: 140px;
     background-color:#BBC4CA ;
-    background-image: url("/img/strategy/strategy-banner.jpg");
+    background-image: url("../../img/strategy/strategy-banner.jpg");
     z-index: 9;
 }
 .part1 .title-box{
@@ -111,7 +111,7 @@
 .part3{
     height: 480px;
     color: #fff;
-    background-image: url("/img/strategy/strategy-bot.jpg");
+    background-image: url("../../img/strategy/strategy-bot.jpg");
 }
 .part3 .part-txt{
     width: 100%;

@@ -1,7 +1,7 @@
 /*part1*/
 .part1{
     min-height: 650px;
-    background-image: url("/img/contact/contact-banner.jpg");
+    background-image: url("../../img/contact/contact-banner.jpg");
     padding: 160px 0 50px;
 }
 .part1 .banner-txt{
@@ -63,7 +63,7 @@
 /*part2*/
 .part2{
     height: 200px;
-    background-image: url("/img/contact/contact-banner-2.jpg");
+    background-image: url("../../img/contact/contact-banner-2.jpg");
 }
 @media all and (max-width: 464px){
     .part2{
@@ -87,14 +87,14 @@
     max-width: 90%;
 }
 .part3 .job-blue{
-    background-image: url("/img/dynamic/dynamic-bg-b.jpg");
+    background-image: url("../../img/dynamic/dynamic-bg-b.jpg");
     color: #fff;
 }
 .part3 .job-blue h2{
     border-bottom: 1px dashed #fff;
 }
 .part3 .job-white{
-    background-image: url("/img/dynamic/dynamic-bg-w.jpg");
+    background-image: url("../../img/dynamic/dynamic-bg-w.jpg");
     color: #004ea2;
 }
 .part3 .job-white h2{
