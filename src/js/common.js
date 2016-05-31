@@ -3,6 +3,15 @@
  */
 
 $(function(){
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 0,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+
     var setting = {
         //初始化
         init : function(){
