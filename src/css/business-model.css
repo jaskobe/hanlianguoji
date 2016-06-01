@@ -1,6 +1,6 @@
 /*part1*/
 .part1{
-    height: 620px;
+    height: 600px;
     background-image: url("../../img/business-model/bm-banner.jpg");
 }
 .part1 .banner-txt{
@@ -10,7 +10,7 @@
 }
 .part1 .banner-txt h2{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .part1 .banner-txt p{
     text-align: left;

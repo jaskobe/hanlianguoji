@@ -14,6 +14,7 @@
 }
 .banner-intro p:first-child{
     font-size: 60px;
+    font-weight: bold;
 }
 .banner-intro p:nth-child(2){
     font-size: 18px;
@@ -163,7 +164,7 @@
 .pro-box{
     background-color: #fff;
     min-height: 900px;
-    padding: 50px 0 20px;
+    padding: 50px 0;
     color: #2b2b2b;
 }
 /*.pro-box div{*/
@@ -436,7 +437,7 @@ button:hover:active:after,
 
 /*team-part*/
 .team-part .row{
-    /*margin: 30px 0;*/
+    margin: 30px 0;
 }
 .team-part .team-photo{
     margin: 10px auto;
