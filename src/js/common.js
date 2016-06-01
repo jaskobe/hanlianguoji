@@ -3,6 +3,21 @@
  */
 
 $(function(){
+    //导航高亮
+    var nav = $(".nav-side a");
+    var urlstr = location.href;
+    //alert((urlstr + '/').indexOf($(this).attr('href')));
+    var urlstatus=false;
+    nav.each(function () {
+        if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
+            $(this).addClass('nav-active'); urlstatus = true;
+        } else {
+            $(this).removeClass('nav-active');
+        }
+    });
+    if (!urlstatus) {$(".nav-side a").eq(0).addClass('nav-active');}
+
+    //设置滑动显示
     var wow = new WOW({
         boxClass: 'wow',
         animateClass: 'animated',
