@@ -34,10 +34,10 @@
     padding: 10px 35px;
 }
 .part2 .news-block.news-block-1{
-    background-image: url("../..//img/dynamic/dynamic-bg-b.jpg");
+    background-image: url("../../img/dynamic/dynamic-bg-b.jpg");
 }
 .part2 .news-block.news-block-2{
-    background-image: url("../..//img/dynamic/dynamic-bg-w.jpg");
+    background-image: url("../../img/dynamic/dynamic-bg-w.jpg");
 }
 .part2 .news-block .news-title{
     width: 100%;
@@ -67,4 +67,97 @@
 }
 .part2 .news-block-1 ul>li:hover a{
     color: rgba(11, 87, 172, 0.53);
+}
+
+/*news*/
+.bar-section{
+    padding: 0;
+}
+.bar-section .bar-wrap{
+    margin: 0 ;
+}
+.bar-box{
+    height: 145px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+.bar-box .bar-img{
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transition:all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.bar-box:hover .bar-img{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.bar-box .cover{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    background: rgba(10, 80, 159, 0.5);
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.bar-box .cover img{
+    width: 65px;
+}
+
+/*news-content*/
+.news-wrap{
+    padding: 30px;
+}
+.news-wrap h1{
+    font-size: 30px;
+    color: #004fa1;
+    font-weight: bold;
+}
+.news-wrap .news-content{
+    margin: 20px 0;
+}
+.news-wrap .btn-wrap{
+    font-size: 16px;
+    width: 100%;
+}
+.news-wrap .btn-wrap a{
+    float: left;
+}
+.news-wrap .btn-wrap a:nth-child(2){
+    float: right;
+}
+@media all and (max-width: 768px){
+    .bar-section{
+        padding-top: 60px;
+    }
+
+}
+@media all and (max-width: 650px){
+    .bar-box{
+        height: 70px;
+    }
+    .bar-box .cover{
+        padding-top: 15px;
+    }
+    .bar-box .cover img{
+        width: 45px;
+    }
+    .news-wrap .btn-wrap a{
+        float: none;
+        display: block;
+    }
+    .news-wrap .btn-wrap a:nth-child(2){
+        float: none;
+        margin: 10px 0;
+    }
 }

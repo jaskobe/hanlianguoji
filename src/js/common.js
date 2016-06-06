@@ -6,16 +6,20 @@ $(function(){
     //导航高亮
     var nav = $(".nav-side a");
     var urlstr = location.href;
-    //alert((urlstr + '/').indexOf($(this).attr('href')));
     var urlstatus=false;
     nav.each(function () {
         if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
-            $(this).addClass('nav-active'); urlstatus = true;
+            urlstatus = true;
+            $(this).addClass('nav-active');
         } else {
             $(this).removeClass('nav-active');
         }
     });
-    if (!urlstatus) {$(".nav-side a").eq(0).addClass('nav-active');}
+    if (!urlstatus||urlstr=='http://localhost:3000/') {
+        $(".nav-side a").eq(0).addClass('nav-active');
+    } else {
+        $(".nav-side a").eq(0).removeClass('nav-active');
+    }
 
     //设置滑动显示
     var wow = new WOW({
@@ -65,7 +69,7 @@ $(function(){
                 var $this = $(this),
                     box = $this.parent();
                 $this.css({
-                    "top":(box.height() - $this.height())/2
+                    "margin-top":-($this.height())/2
                 });
             })
         },

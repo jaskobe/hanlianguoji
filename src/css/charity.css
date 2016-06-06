@@ -1,0 +1,241 @@
+.part{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+/*part1*/
+.part1{
+    width: 100%;
+    height: 600px;
+    padding-top: 140px;
+    background-color:#BBC4CA ;
+    background-image: url("../../img/charity/charity-banner.jpg");
+    z-index: 9;
+}
+.part1 .title-box{
+    position: absolute;
+    left: 40px;
+    color: #004fa1;
+    line-height: 40px;
+}
+.part1 .title-box h2{
+    font-size: 54px;
+    font-weight: bold;
+}
+.part1 .title-box p{
+    font-size: 26px;
+    text-align: left;
+    font-weight: 100;
+}
+
+/*part2*/
+.part2{
+    background: #fff;
+    position: relative;
+    min-height: 100px;
+    text-align: center;
+    padding: 110px 0px 10px;
+}
+.part2 .card-wrap{
+    background: #23447C;
+    width: 840px;
+    max-width: 100%;
+    min-height: 200px;
+    padding: 25px;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    margin-left: -420px;
+    z-index: 99;
+}
+.part2 .card-wrap .card{
+    height: 150px;
+    text-align: center;
+}
+.part2 .card-wrap .card:nth-child(2){
+    border-left: 1px solid #fff;
+}
+.part2 .card-wrap .card img{
+    margin-top:20px;
+}
+.part2 .card-wrap .card p{
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    font-size: 16px;
+}
+.part2 h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.part2 p{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 15px 0;
+    padding: 0 10px;
+}
+@media all and (max-width: 991px){
+    .part2{padding: 0}
+    .part2 .card-wrap{
+        width: 100%;
+        position: relative;
+        top:0;
+        left: 0;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .part2 .card-wrap .card:nth-child(2){
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #fff;
+    }
+
+}
+@media all and (max-width: 991px) {
+    .part2 {
+        min-height: 380px;
+    }
+}
+/*part-section*/
+.part-section{
+    width: 600px;
+    max-width: 100%;
+    padding: 114px 20px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+.part-section h2{
+    font-size: 40px;
+    margin: 40px 0 20px;
+}
+.part-section p{
+    font-size: 14px;
+    text-align: left;
+}
+.part-section h3{
+    margin-top: 20px;
+    font-size: 16px;
+}
+/*part3*/
+.part3{
+    min-height: 620px;
+    background-image: url("../../img/charity/charity-bg-1.jpg");
+}
+/*part4*/
+.part4{
+    min-height: 740px;
+    background-color: #657f89;
+    padding: 30px 20px;
+}
+.part4 .table{
+    /*width: 980px;*/
+    max-width: 84%;
+    margin: 0 auto;
+    text-align: center;
+}
+.table .table-head{
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    line-height: 40px;
+}
+.table .table-body{
+    width: 100%;
+    height: 700px;
+    overflow: scroll;
+    font-size: 15px;
+}
+
+.table .table-body>li>ul{
+    height: 78px;
+    display: flex;
+    overflow: hidden;
+    background-color: #fff;
+}
+.table .table-head li,
+.table .table-body li{
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.table .table-head>li{
+    color: #fff;
+}
+.table-head li:first-child,
+.table-body>li>ul>li:first-child{
+    width: 78px;
+}
+.table-head li:nth-child(2),
+.table-body>li>ul>li:nth-child(2){
+    flex:2
+}
+.table-head li:nth-child(3),
+.table-body>li>ul>li:nth-child(3){
+    flex:4
+}
+.table-head li:nth-child(4),
+.table-body>li>ul>li:nth-child(4){
+    flex:3
+}
+.table-head li:nth-child(5),
+.table-body>li>ul>li:nth-child(5){
+    flex:2
+}
+
+.table .table-body>li {
+    width: 100%;
+    height: 78px;
+    line-height: 78px;
+    margin-top: 15px;
+    position: relative;
+}
+.table-body>li>ul>li:first-child{
+    background-color:#6fb43d ;
+}
+.table-body>li:nth-child(2n)>ul>li:first-child{
+    background-color:#004fa1 ;
+}
+.table-body .student-info{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: calc(100% - 78px);
+    height: 100%;
+    background-color: #f29800;
+    display: none;
+    color: #fff;
+    line-height: inherit;
+    font-size: 15px;
+}
+.table-body>li:hover .student-info{
+    display: block;
+}
+@media all and (max-width: 550px) {
+    .table-head li:first-child,
+    .table-body>li>ul>li:first-child{
+        width: 0;
+    }
+    .table-body .student-info{
+        width: 100%;
+    }
+}
+/*part5*/
+.part5{
+    min-height: 620px;
+    background-image: url("../../img/charity/charity-bg-4.jpg");
+}
+.part5-info{
+    padding: 30px 20px;
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 24px;
+}
+.part5-info p{
+    text-indent: 2em;
+    text-align: left;
+}

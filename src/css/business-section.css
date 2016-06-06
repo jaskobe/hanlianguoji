@@ -28,7 +28,7 @@
     height: 70px;
     padding-top: 20px;
     background: rgba(10, 80, 159, 0.5);
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
 }
 .product-bar .cover>img{
@@ -45,7 +45,7 @@
     padding: 40px;
 }
 .business-product h1{
-    font-size: 60px;
+    font-size: 40px;
     color: #004fa1;
     font-weight: bold;
 }
@@ -67,6 +67,8 @@
 .business-product .bp-img-box{
     margin: 15px 0;
     position: relative;
+    max-height: 300px;
+    overflow: hidden;
 }
 .business-product .bp-img-box img{
     width: 100%;
@@ -87,8 +89,11 @@
 }
 .business-product .bp-img-box .bp-img-cover p{
     display: block;
+    position: absolute;
     left: 50%;
+    top:50%;
     margin-left: -150px;
+    margin-top: -25px;
     width: 300px;
     height: 50px;
     color: #fff;
@@ -115,6 +120,9 @@
 .business-product .btn-box .page-btn:hover{
     background-color: rgba(0, 0, 0, 0.8);
 }
+.business-product .btn-box .page-btn.disabled:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .business-product .btn-box .page-btn:first-child{
     float: left;
 }
@@ -128,4 +136,18 @@
         padding:0;
         margin: 20px 0 ;
     }
+}
+
+/*business-section-info*/
+.content-box{
+    min-height: 500px;
+    padding: 30px;
+}
+.content-box h1{
+    font-size: 50px;
+    color: #004fa1;
+    font-weight: bold;
+}
+.content-box article{
+    margin-top: 20px;
 }

@@ -27,7 +27,7 @@
         <span class="glyphicon glyphicon-align-justify"></span>
     </div>
     <ul class="animated fadeInLeft">
-        <li><a href="index.html">首页</a></li>
+        <li><a href="/">首页</a></li>
         <li><a href="index.html#com-part">集团布局</a></li>
         <li><a href="business-section.html">业务板块</a></li>
         <li><a href="base-intro.html">基地简介</a></li>
@@ -46,13 +46,27 @@
 <div class="wrap">
     <section class="part1 slider full-page" id="banner">
         <div class="slider-inner">
-            <div class="item item1">
+            <div class="part item item1">
                 <div class="banner-intro v-center wow animated fadeInLeft">
                     <p>恩泽世界 造福人类</p>
                     <p>先予而后取<br>还一方青山、绿水、蓝天，造福百姓<br>天诚  地信  人德 (天道为之诚,地道为之信,人道为之德)<br>打造（全球）治污、环保，节能减排，循环经济，废弃物综合利用，新能源、新材料、新技术产业帝国！</p>
                 </div>
             </div>
-            <!--<div class="item item1">112222</div>-->
+            <div class="part item item2">
+                <img src="img/index/index-banner-txt-2.png" alt="">
+            </div>
+            <div class="part item item3">
+                <img src="img/index/index-banner-txt-3.png" alt="">
+            </div>
+            <div class="part item item4">
+                <img src="img/index/index-banner-txt-4.png" alt="">
+            </div>
+            <div class="part item item5">
+                <img src="img/index/index-banner-txt-5.png" alt="">
+            </div>
+            <div class="part item item6">
+                <img src="img/index/index-banner-txt-6.png" alt="">
+            </div>
         </div>
     </section>
     <!--part2-->
@@ -365,6 +379,7 @@
                     <div class="col-lg-7 clear-fix">
                         <input type="text" class="form-control" placeholder="您的姓名">
                         <input type="email" class="form-control" placeholder="您的邮箱">
+                        <input type="text" class="form-control" placeholder="请输入您的电话">
                         <textarea class="form-control" rows="7" placeholder="请输入您的留言"></textarea>
                         <button>发送</button>
                     </div>
@@ -404,7 +419,15 @@
 <script src="dep/banner-fade.js"></script>
 <script src="src/js/index.js"></script>
 <script>
-    $("#banner").Slider();
+    $("#banner").Slider({
+        isAuto: false,
+        transTime: 6000,
+        animateSpeed: 500,
+        sliderMode: 'slide', //'slide | fade',
+        pointerControl: true,
+        pointerEvent: 'hover',//'hover' | 'click',
+        arrowControl: false
+    });
 </script>
 <!--private js end-->
 </body>
