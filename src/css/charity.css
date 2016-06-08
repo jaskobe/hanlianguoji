@@ -39,7 +39,7 @@
     padding: 110px 0px 10px;
 }
 .part2 .card-wrap{
-    background: #23447C;
+    background:#0A509F;
     width: 840px;
     max-width: 100%;
     min-height: 200px;
@@ -59,6 +59,7 @@
 }
 .part2 .card-wrap .card img{
     margin-top:20px;
+    width: 66px;
 }
 .part2 .card-wrap .card p{
     color: rgba(255, 255, 255, 0.8);
@@ -131,7 +132,7 @@
 }
 .part4 .table{
     /*width: 980px;*/
-    max-width: 84%;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -153,6 +154,7 @@
     display: flex;
     overflow: hidden;
     background-color: #fff;
+    margin: 0;
 }
 .table .table-head li,
 .table .table-body li{

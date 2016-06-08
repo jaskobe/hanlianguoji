@@ -10,13 +10,15 @@
 .part1{
     width: 100%;
     height: 600px;
+    padding-top: 140px;
     background-color:#BBC4CA ;
-    background-image: url("../../img/base-intro/base-banner.png");
+    background-image: url("../../img/charity/charity-banner.jpg");
     z-index: 9;
 }
 .part1 .title-box{
+    position: absolute;
     left: 40px;
-    color: #004697;
+    color: #004fa1;
     line-height: 40px;
 }
 .part1 .title-box h2{
@@ -24,34 +26,80 @@
     font-weight: bold;
 }
 .part1 .title-box p{
-    font-size: 28px;
+    font-size: 26px;
     text-align: left;
+    font-weight: 100;
 }
+
 /*part2*/
 .part2{
-    background-color: #fff;
-    width: 100%;
-    min-height: 200px;
-    z-index: 99;
-    overflow: visible;
+    background: #fff;
+    position: relative;
+    min-height: 100px;
+    text-align: center;
+    padding: 110px 0px 10px;
 }
-.part2 .block-box{
+.part2 .card-wrap{
+    background:#0A509F;
+    width: 840px;
     max-width: 100%;
-    background-color: #004696;
-}
-.part2 .block-box ul>li{
     min-height: 200px;
-    box-sizing: border-box;
-    padding: 20px;
+    padding: 25px;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    margin-left: -420px;
+    z-index: 99;
+}
+.part2 .card-wrap .card{
+    height: 150px;
     text-align: center;
 }
-.part2 .block-box ul>li img{
-    width: 54px;
+.part2 .card-wrap .card:nth-child(2){
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
-.part2 .block-box ul>li p{
+.part2 .card-wrap .card img{
+    margin-top:20px;
+    width: 50px;
+}
+.part2 .card-wrap .card p{
+    color: rgba(255, 255, 255, 0.8);
     margin-top: 20px;
-    color: #fff;
     font-size: 16px;
+}
+.part2 h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.part2 p{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 15px 0;
+    padding: 0 10px;
+}
+@media all and (max-width: 991px){
+    .part2{padding: 0}
+    .part2 .card-wrap{
+        width: 100%;
+        position: relative;
+        top:0;
+        left: 0;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .part2 .card-wrap .card:nth-child(2){
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+}
+@media all and (max-width: 991px) {
+    .part2 {
+        min-height: 380px;
+    }
 }
 
 /*base-part*/
@@ -61,13 +109,13 @@
     position: relative;
 }
 .base-banner.base-banner-1{
-    background-image: url("../../img/base-intro/base-banner-1.png");
+    background-image: url("../../img/base-intro/base-banner-1.jpg");
 }
 .base-banner.base-banner-2{
-    background-image: url("../../img/base-intro/base-banner-2.png");
+    background-image: url("../../img/base-intro/base-banner-2.jpg");
 }
 .base-banner.base-banner-3{
-    background-image: url("../../img/base-intro/base-banner-3.png");
+    background-image: url("../../img/base-intro/base-banner-3.jpg");
 }
 .base-banner .base-banner-inner{
     text-align: center;
@@ -95,7 +143,8 @@
     margin: 30px 0;
 }
 .base-part-card{
-    min-height: 300px;
+    /*min-height: 300px;*/
+    height: 300px;
     margin: 5px;
 }
 
@@ -103,10 +152,11 @@
     display: none;
     padding: 15px;
     width: 100%;
-    min-height: 300px;
+    height: 100%;
     background-color:#73bc39;
     color: #fff;
     text-align: center;
+    text-overflow: ellipsis;
 }
 .base-part-card .card-box h2{
     font-size: 24px;
@@ -116,28 +166,31 @@
     font-size: 14px;
     margin-top: 10px;
     text-align: left;
+    height: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .base-part-card:hover .card-box{
     display: block;
 }
 /*part3*/
 .base-part-card.part-1-a{
-    background-image: url("../../img/base-intro/base-part-1a.png");
+    background-image: url("../../img/base-intro/base-part-1a.jpg");
 }
 .base-part-card.part-1-b{
-    background-image: url("../../img/base-intro/base-part-1b.png");
+    background-image: url("../../img/base-intro/base-part-1b.jpg");
 }
 .base-part-card.part-1-c{
-    background-image: url("../../img/base-intro/base-part-1c.png");
+    background-image: url("../../img/base-intro/base-part-1c.jpg");
 }
 .base-part-card.part-1-d{
-    background-image: url("../../img/base-intro/base-part-1a.png");
+    background-image: url("../../img/base-intro/base-part-1d.jpg");
 }
 .base-part-card.part-1-e{
-    background-image: url("../../img/base-intro/base-part-1b.png");
+    background-image: url("../../img/base-intro/base-part-1e.jpg");
 }
 .base-part-card.part-1-f{
-    background-image: url("../../img/base-intro/base-part-1c.png");
+    background-image: url("../../img/base-intro/base-part-1f.jpg");
 }
 
 /*part4*/
@@ -158,4 +211,12 @@
 }
 .base-part-card.part-2-f {
     background-image: url("../../img/base-intro/base-part-2f.png");
+}
+
+/*part5*/
+.base-part-card.part-3-a{
+    background-image: url("../../img/base-intro/base-part-3a.png");
+}
+.base-part-card.part-3-b{
+    background-image: url("../../img/base-intro/base-part-3b.png");
 }

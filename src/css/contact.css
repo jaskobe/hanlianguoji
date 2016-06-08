@@ -62,12 +62,13 @@
 }
 /*part2*/
 .part2{
-    height: 200px;
+    height: 250px;
     background-image: url("../../img/contact/contact-banner-2.jpg");
 }
 @media all and (max-width: 464px){
     .part2{
         background-position-x: 62%;
+        height: 200px;
     }
 }
 /*part3*/

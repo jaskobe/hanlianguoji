@@ -161,3 +161,49 @@
         margin: 10px 0;
     }
 }
+
+/*新闻列表*/
+.list-title{
+    width: 100%;
+    height: 80px;
+    line-height: 63px;
+    color: #004fa1;
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: dashed 1px #004fa1;
+}
+.list-title img{
+    float: left;
+    width: 60px;
+    margin-right: 20px;
+}
+.list-box{
+    width: 600px;
+    max-width: 100%;
+    padding: 15px;
+}
+.list-box>li{
+    width: 100%;
+    overflow: hidden;
+    margin: 24px 0;
+}
+.list-box a,
+.list-box span{
+    display: block;
+    float: left;
+    font-size: 16px;
+}
+.list-box a{
+    width: 80%;
+    color: #004fa1;
+}
+.list-box a:hover{
+    color: #1593e1;
+}
+.list-box span{
+    width: 20%;
+    color: #69B232;
+}
+.page-group{
+    margin-left: 15px;
+}
